@@ -27,9 +27,9 @@ public:
 		if (lose == true) {
 			system("CLS");
 			ShowHiddenField();
-			cout << endl << "Вы проиграли! :(\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+			cout << endl << "Вы проиграли! :(\n\n\n\n\n\n\n\n\n\n\n";
 		}
-		else cout << endl << "Вы выиграли! :)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+		else cout << endl << "Вы выиграли! :)\n\n\n\n\n\n\n\n\n\n\n";
 	}
 
 protected:
