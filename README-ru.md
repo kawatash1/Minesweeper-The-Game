@@ -4,6 +4,7 @@
 [ [English] ](https://github.com/kawatash1/SaperTheGame/blob/main/README.md)
 
 # Игра "Сапер"
+
 Данный проект был создан в учебных целях.
 ---
 # Особенности
