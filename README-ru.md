@@ -16,4 +16,4 @@
 
 # Как играть
 
-Загрузите файл <https://github.com/kawatash1/SaperTheGame/blob/main/Saper.cpp>
+Загрузите файл [Saper.cpp](https://github.com/kawatash1/SaperTheGame/blob/main/Saper.cpp)
