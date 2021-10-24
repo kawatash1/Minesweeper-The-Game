@@ -1,3 +1,7 @@
+[English](https://github.com/kawatash1/SaperTheGame/blob/main/README.md)
+
+![](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.iguides.ru%2Fupload%2Fmedialibrary%2F146%2F146a4b325a3311df76d8e4784c088db2.png&imgrefurl=https%3A%2F%2Fwww.iguides.ru%2Fmain%2Fother%2Figre_saper_ispolnilos_30_let%2F&tbnid=IcNnrbzHbmGVyM&vet=12ahUKEwjQu9jYzOPzAhUIdxoKHc5pDk8QMygKegUIARC1AQ..i&docid=7CnNmF2HC652mM&w=800&h=400&q=%D1%81%D0%B0%D0%BF%D0%B5%D1%80%20%D1%84%D0%BE%D1%82%D0%BE%20%D0%B8%D0%B3%D1%80%D1%8B&hl=ru&ved=2ahUKEwjQu9jYzOPzAhUIdxoKHc5pDk8QMygKegUIARC1AQ)
+
 # Игра "Сапер"
 Данный проект был создан в учебных целях.
 
