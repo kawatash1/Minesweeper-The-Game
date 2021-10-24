@@ -16,4 +16,4 @@
 
 ### Как играть
 
-Загрузите файл [Saper.cpp](https://github.com/kawatash1/SaperTheGame/blob/main/Saper.cpp) и откройте его с помощью любого редактора кода. С помощью кнопки 'run' запустите программу.
+Загрузите файл [Saper.cpp](https://github.com/kawatash1/SaperTheGame/blob/main/Saper.cpp) и откройте его с помощью любого редактора кода. С помощью кнопки `run` запустите программу.
