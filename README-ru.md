@@ -1,6 +1,7 @@
-[ [English] ](https://github.com/kawatash1/SaperTheGame/blob/main/README.md)
 
 ![image](https://user-images.githubusercontent.com/92756386/138606248-efa85db3-b8aa-4192-ae1b-e1d3246c5a0b.png)
+
+[ [English] ](https://github.com/kawatash1/SaperTheGame/blob/main/README.md)
 
 # Игра "Сапер"
 Данный проект был создан в учебных целях.
