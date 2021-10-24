@@ -14,6 +14,6 @@
 * Геймплей осуществляется вводом с клавиатуры
 
 
-# Как играть
+### Как играть
 
 Загрузите файл [Saper.cpp](https://github.com/kawatash1/SaperTheGame/blob/main/Saper.cpp)
