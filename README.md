@@ -11,7 +11,7 @@ Specifications
 
 How to play
 ---
-Upload the file [Saper.cpp](https://github.com/kawatash1/SaperTheGame/blob/main/Saper.cpp) and open it with any code editor. Next, run the program with the button `run`.
+Upload the file [Minesweeper.cpp](https://github.com/kawatash1/SaperTheGame/blob/main/Saper.cpp) and open it with any code editor. Next, run the program with the button `run`.
 
 ### Rules of the game
 
