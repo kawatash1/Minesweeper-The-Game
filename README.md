@@ -23,6 +23,6 @@ For convenience, mine slots can be marked with flags.
 The game is won as soon as all cells that do not contain mines are open.
 
 
-Addition
----
-At the beginning of the game, if the player manages to immediately open an empty cell, then 8 more cells will open around it. Also, if you enter an already open cell with the value "0", the numbers around it will also open. Данная функция поможет быстрее продвинуться в прохождении игры. Также на случай спорного варианта (когда бомба может находится в нескольких местах и нельзя узнать наверняка, и в таких случаях обычно открывается дополнительная зона) присутствует функция оглашения: правильно ли пользователь поставил флаг. Таким образом, если пользователь не угадал, и оглашения не было, можно просто поменять позицию поставленного ранее флага. 
+### Addition
+
+If the first cell opened by the user turns out to be an empty cell, then 8 more cells will open around it. This will also work if you enter the position of an already open cell with the "0". This feature will help you progress faster in the game. Also, in case of a controversial option (when it is impossible to know for sure where the mine is located), an announcement function is provided, the task of which is to notify the user whether he has set the flag correctly. Thus, if the player has not guessed correct position, and there was no announcement, he can simply change the position of the flag set earlier to another one.
