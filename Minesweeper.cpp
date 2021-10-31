@@ -27,9 +27,9 @@ public:
 		if (lose) {
 			system("CLS");
 			ShowHiddenField();
-			cout << endl << "Вы проиграли! :(\n\n\n\n\n\n\n\n\n\n\n";
+			cout << endl << "You lose :(\n\n\n\n\n\n\n\n\n\n\n";
 		}
-		else cout << endl << "Вы выиграли! :)\n\n\n\n\n\n\n\n\n\n\n";
+		else cout << endl << "You won! :)\n\n\n\n\n\n\n\n\n\n\n";
 	}
 
 protected:
@@ -52,8 +52,8 @@ private:
 	int correct_answers=0;
 	void Title() {
 		//system("color F5");
-		cout << "\n						САПЕР";
-		cout << "\n\nНажмите любую клавишу, чтобы играть..";
+		cout << "\n						MINESWEEPER";
+		cout << "\n\nPress any button to start the game..";
 		_getch();
 		system("CLS");
 		system("color 7");
@@ -156,13 +156,13 @@ private:
 		char byX;
 		char byY;
 		int choice = 0;
-		cout << "(1) - поставить/убрать флаг\n(2) - открыть клетку\n";
+		cout << "(1) - put / remove a flag\n(2) - open cell\n";
 		while (choice < 1 || choice > 2) { cin >> choice; }
-		cout << "\n	Осталось бомб: " << bombCounter << "\n(Вводите номер клетки по принципу a1)\n";
+		cout << "\n	Remaining mines: " << bombCounter << "\n(Enter the cell position according to the a1 principle)\n";
 		cin >> user_line;
 		while (user_line.length() != 2 || ((int)user_line[0] < 97 || (int)user_line[0] > 105) || ((int)user_line[1] < 49 || (int)user_line[1] > 57))
 		{
-			cout << "\nВведите корректнo номер клетки.\n";
+			cout << "\Enter the correct position of the cell.\n";
 			cin >> user_line;
 		}
 
@@ -179,7 +179,7 @@ private:
 			{
 				field9x9[(int)byY][(int)byX] = 'F';
 				if (hidden_field[(int)byY][(int)byX] == '*') { 
-					cout << "Вы правильно поставили флаг!"; 
+					cout << "You've set the flag correctly!"; 
 					correct_answers++; 
 					Sleep(2000); }
 				bombCounter--;
