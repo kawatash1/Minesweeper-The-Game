@@ -11,7 +11,7 @@
 
 Как играть
 ---
-Загрузите файл [Saper.cpp](https://github.com/kawatash1/SaperTheGame/blob/main/Saper.cpp) и откройте его с помощью любого редактора кода. Далее запустите программу с кнопкой `run`.
+Загрузите файл [Minesweeper.cpp](https://github.com/kawatash1/Minesweeper-The-Game/blob/main/Minesweeper.cpp) и откройте его с помощью любого редактора кода. Далее запустите программу с кнопкой `run`.
 
 ### Правила игры
 
