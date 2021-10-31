@@ -24,7 +24,7 @@ public:
 		while (!lose && !win) {
 			gamePlay();
 		}
-		if (lose == true) {
+		if (lose) {
 			system("CLS");
 			ShowHiddenField();
 			cout << endl << "Вы проиграли! :(\n\n\n\n\n\n\n\n\n\n\n";
@@ -60,7 +60,7 @@ private:
 	}
 
 
-	void FieldGeneration() {						 //генерация игрового поля
+	void FieldGeneration() {					//генерация игрового поля
 		for (int i = 0; i < 9; i++) {
 			for (int j = 0; j < 9;j++) {
 				field9x9[i][j] = ' ';
@@ -68,7 +68,7 @@ private:
 		}
 	}
 
-	void HiddenFieldGeneration() {					 //генерация скрытого поля
+	void HiddenFieldGeneration() {					//генерация скрытого поля
 		for (int i = 0; i < 9; i++) {
 			for (int j = 0; j < 9;j++) {
 				hidden_field[i][j] = '0';
@@ -76,7 +76,7 @@ private:
 		}
 	}
 
-	void ShowField() {	//показать игровое поле
+	void ShowField() {						//показать игровое поле
 		cout << endl;
 		cout << " ";
 		for (int i = 0; i < 9; i++) {
@@ -93,7 +93,7 @@ private:
 	}
 
 
-	void ShowHiddenField() {						//показать скрытое поле
+	void ShowHiddenField() {					//показать скрытое поле
 		cout << " ";
 		for (int i = 0; i < 9; i++) {
 			cout << " " << (char)(i + 65);
@@ -124,7 +124,7 @@ private:
 	}
 
 
-	void NumGeneration() {							//генерация цифр вокруг мины
+	void NumGeneration() {						//генерация цифр вокруг мины
 		for (int i = 0; i < 9; i++) {
 			for (int j = 0; j < 9;j++) {
 				if (hidden_field[i][j] == '*') {
