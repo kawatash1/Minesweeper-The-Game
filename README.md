@@ -14,7 +14,13 @@ How to play
 Upload the file [Minesweeper.cpp](https://github.com/kawatash1/SaperTheGame/blob/main/Saper.cpp) and open it with any code editor. Next, run the program with the button `run`.
 
 ### Rules of the game
+The goal of the Minesweeper game is to open empty cells without opening any containing a mine.
 
+The game starts by entering the position of any cell on the field. After that, it will open and a number will be displayed. This number indicates the number of mines in adjacent cells. Several adjacent numbered cells can indicate the same mines, and this allows you to accurately identify dangerous cells. If there are no mines either in the cell itself or in the cells adjacent to it, then a zone with empty cells in the radius opens.
+
+For convenience, mine slots can be marked with flags.
+
+The game is won as soon as all cells that do not contain mines are open.
 
 
 Addition
